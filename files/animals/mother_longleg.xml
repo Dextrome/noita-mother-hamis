@@ -6,7 +6,7 @@
         <AnimalAIComponent
             escape_if_damaged_probability="99"
             sense_creatures="1"
-            attack_melee_max_distance="10" 
+            attack_melee_max_distance="16" 
     		attack_dash_enabled="1"
     	    eating_area_radius_x="16"
     	    eating_area_radius_y="16"
