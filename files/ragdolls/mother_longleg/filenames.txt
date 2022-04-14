@@ -1,0 +1,7 @@
+mods/dextrome_mother_hamis/files/ragdolls/mother_longleg/head.png
+mods/dextrome_mother_hamis/files/ragdolls/mother_longleg/leg1.png
+mods/dextrome_mother_hamis/files/ragdolls/mother_longleg/foot1.png
+mods/dextrome_mother_hamis/files/ragdolls/mother_longleg/leg2.png
+mods/dextrome_mother_hamis/files/ragdolls/mother_longleg/foot2.png
+mods/dextrome_mother_hamis/files/ragdolls/mother_longleg/leg3.png
+mods/dextrome_mother_hamis/files/ragdolls/mother_longleg/foot3.png
