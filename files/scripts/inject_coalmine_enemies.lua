@@ -1,4 +1,4 @@
-dofile_once("data/scripts/empty_enemy_helper_start.lua")
+dofile_once("mods/dextrome_mother_hamis/files/scripts/hornedkey/empty_enemy_helper_start.lua")
 
 function insert_enemy(into_what, prob, min_count, max_count, entity, key)
 	if not HasFlagPersistent("ned_"..key) then
@@ -13,8 +13,8 @@ end
 
 
 
-insert_enemy(g_big_enemies, 0.15, 1, 1, "files/animals/mother_longleg.xml", "mother_longleg")
+insert_enemy(g_big_enemies, 0.2, 1, 1, "mods/dextrome_mother_hamis/files/animals/mother_longleg.xml", "mother_longleg")
 
 
 
-dofile_once("data/scripts/empty_enemy_helper_end.lua")
+dofile_once("mods/dextrome_mother_hamis/files/scripts/hornedkey/empty_enemy_helper_end.lua")

@@ -12,9 +12,9 @@ function damage_received( damage, desc, entity_who_caused, is_fatal )
 		health = tonumber(ComponentGetValue( comp, "hp"))
 	end)
 	
-	if (health > 0.3) and (health - damage < 0.3) then
+	if (health > 0.1) and (health - damage < 0.1) then
 		for i=1,5 do
-			local offsetx = Random(-10,10)
+			local offsetx = Random(-20,20)
 			local offsety = Random(-10,10)
 			
 			local e = EntityLoad( "data/entities/animals/longleg.xml", x + offsetx, y + offsety )	
