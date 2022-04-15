@@ -24,6 +24,14 @@ function damage_received( damage, desc, entity_who_caused, is_fatal )
 				local vel_y = Random(-150,25)
 				ComponentSetValueVector2( comp, "mVelocity", vel_x, vel_y )
 			end)
+
+			local charm_component = GetGameEffectLoadTo( e, "CHARM", true )
+        	if( charm_component ~= nil ) then
+            	if (charm_component ~= 0 ) then
+
+                ComponentSetValue( charm_component, "frames", -1 )
+            	end
+        	end
 		end
 	end
 end	

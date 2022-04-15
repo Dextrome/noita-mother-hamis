@@ -1,5 +1,5 @@
 dofile_once("data/scripts/lib/utilities.lua")
-local h = "mods/dextrome_mother_hamis/files/animals/mother_longleg.xml"
+local h = "mods/dextrome_mother_hamis/files/animals/mother_longleg_charmed.xml"
 
         local entity_id = GetUpdatedEntityID()
         local x, y = EntityGetTransform( entity_id )

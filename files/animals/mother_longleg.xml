@@ -1,4 +1,4 @@
-<Entity name="$animal_longleg">
+<Entity name="Mother Hämis">
   
     <Base file="data/entities/base_enemy_basic.xml" >
         <ItemChestComponent level="1" > </ItemChestComponent>
@@ -64,11 +64,6 @@
 			>
 		</CharacterDataComponent>
     </Base>
-
-    <LuaComponent
-    _enabled="1"
-    script_damage_received="mods/dextrome_mother_hamis/files/scripts/mother_hamis_death.lua" >
-    </LuaComponent>
 	
 	<AudioComponent
 		file="data/audio/Desktop/animals.bank"

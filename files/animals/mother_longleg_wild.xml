@@ -1,0 +1,10 @@
+<Entity name="$animal_longleg" tags="hamis">
+  
+  <Base file="mods/dextrome_mother_hamis/files/animals/mother_longleg.xml" >
+    <LuaComponent
+    _enabled="1"
+    script_damage_received="mods/dextrome_mother_hamis/files/scripts/mother_hamis_death.lua" >
+    </LuaComponent>
+  </Base>
+    
+</Entity>
