@@ -25,7 +25,7 @@
         </SpriteAnimatorComponent>
 
         <DamageModelComponent
-            hp="0.9"
+            hp="1.5"
             ragdoll_filenames_file="mods/dextrome_mother_hamis/files/ragdolls/mother_longleg/filenames.txt"
             ragdoll_offset_y="-18"
             ragdoll_fx_forced="DISINTEGRATED"
@@ -48,10 +48,10 @@
         
         <HitboxComponent 
             _enabled="1"
-			aabb_min_x="-5" 
-            aabb_min_y="-6" 
-            aabb_max_x="5" 
-            aabb_max_y="6" 
+			aabb_min_x="-12" 
+            aabb_min_y="-15" 
+            aabb_max_x="12" 
+            aabb_max_y="15" 
 			>
         </HitboxComponent>
 		
