@@ -49,7 +49,7 @@
         <HitboxComponent 
             _enabled="1"
 			aabb_min_x="-12" 
-            aabb_min_y="-15" 
+            aabb_min_y="-18" 
             aabb_max_x="12" 
             aabb_max_y="15" 
 			>

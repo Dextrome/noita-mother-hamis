@@ -12,7 +12,7 @@ function damage_received( damage, desc, entity_who_caused, is_fatal )
 		health = tonumber(ComponentGetValue( comp, "hp"))
 	end)
 	
-	if (health > 0.3) and (health - damage < 0.3) then
+	if (health > 0.2) and (health - damage < 0.2) then
 		for i=1,5 do
 			local offsetx = Random(-20,20)
 			local offsety = Random(-10,10)

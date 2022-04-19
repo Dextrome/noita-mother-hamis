@@ -13,7 +13,7 @@ end
 
 
 
-insert_enemy(g_big_enemies, 0.4, 1, 1, "mods/dextrome_mother_hamis/files/animals/mother_longleg_wild.xml", "mother_longleg")
+insert_enemy(g_big_enemies, 0.6, 1, 1, "mods/dextrome_mother_hamis/files/animals/mother_longleg_wild.xml", "mother_longleg")
 
 
 
